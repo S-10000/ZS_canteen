@@ -1,0 +1,23 @@
+<!--pages/my/register/index.wxml-->
+
+<view class="container">
+  <view class="form-box">
+
+    <view class="form-item">
+      <input class="account" value="{{account}}" bindinput="bindaccountInput" placeholder="账号" />
+      <image class="clear" id="clear-account" wx:if="{{ account.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+
+    <view class="form-item">
+      <input class="nickname" value="{{nickname}}" bindinput="bindnicknameInput" placeholder="昵称" />
+      <image class="clear" id="clear-nickname" wx:if="{{ nickname.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+
+    <view class="form-item">
+      <input class="password" value="{{password}}" password bindinput="bindPasswordInput" placeholder="密码" />
+      <image class="clear" id="clear-password" wx:if="{{ password.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <button type="default" class="login-btn" bindtap="registerfunction">注册</button>
+    <!-- <button type="default" class="login-btn" formType="reset">重置</button> -->
+  </view>
+</view>
