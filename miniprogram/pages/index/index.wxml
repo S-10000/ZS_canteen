@@ -15,6 +15,7 @@
     
   </view>
 </view>
+
 <!-- 爱食堂nav -->
 <view class='nav'>
   <navigator url='/pages/{{whichnav}}/navlist?type={{item}}' hover-class="none" wx:for="{{menu}}" wx:key="{{item}}">

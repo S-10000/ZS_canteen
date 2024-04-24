@@ -8,6 +8,7 @@ Page({
     fav:0,
     favourateImg: ''
   },
+  
   addFavourate: function(e) {
     if (this.data.favourateImg.indexOf('like-undo') != -1) {
       try {
@@ -96,6 +97,7 @@ Page({
       // handle error
     })
   },
+  
   addcomment(event) {
     wx.navigateTo({
       url: '/pages/addcomment/addcomment?dishid=' + event.currentTarget.dataset.id,

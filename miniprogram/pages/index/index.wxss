@@ -25,7 +25,7 @@
   
 }
 .header .search input{
-  border: 1rpx solid #C83C32;
+  border: 1rpx solid #196d11;
   border-radius: 80rpx;
   padding: 0 80rpx 0 30rpx;
   font-size: 30rpx;
@@ -38,7 +38,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  background: #C83C32;
+  background: #196d11;
 }
 .header .search .search_icon image{
   height: 45rpx;
@@ -56,7 +56,7 @@
   margin:15rpx 10rpx;
   padding:10rpx 15rpx;
   color:#999;
-  border:1rpx solid #C83C32;
+  border:1rpx solid #196d11;
   border-radius:40rpx;
   line-height:30rpx;
 }
@@ -92,7 +92,7 @@
 /* 闲暇时光小厨房热门菜谱 */
 .hot .hot_title{
   text-align: center;
-  color: #C83C32;
+  color: #196d11;
   font-size: 35rpx;
   margin-bottom: 20rpx;
 }

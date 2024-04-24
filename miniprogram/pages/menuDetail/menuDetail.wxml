@@ -1,5 +1,6 @@
+<!-- 爱食堂菜品详情页 -->
 <view class='menuDetail' wx:for="{{menuDetails}}" wx:key="{{id}}">
-  <image src='./../../assets/food/麻婆豆腐.jpg'></image>
+  <image src='./../../assets/food/{{item.pic}}'></image>
   <view class='main'>
     <view class='title'>
       <view>{{item.name}}</view>
@@ -18,6 +19,6 @@
         <view style="color: #B0B0B0;font-size:24rpx;">{{item.date}}</view>
       </view>
       <wxc-label class='goods-text-label' type='corner' text="{{item.goods.goodReputationStr}}"></wxc-label>
-    </view>
+</view>
   </view>
 </view>

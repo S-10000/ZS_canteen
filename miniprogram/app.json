@@ -1,4 +1,3 @@
-
 {
   "pages": [
     "pages/index/index",
@@ -6,7 +5,7 @@
     "pages/discuss/detail/detail",
     "pages/discuss/comment/comment",
     "pages/category/category",
-    
+
     "pages/my/my",
     "pages/my/login/login",
     "pages/my/reset/reset",
@@ -21,18 +20,17 @@
     "pages/addcomment/addcomment",
     "pages/navlistwork/navlist",
     "pages/navlistwork/adddish/adddish"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#C83C32",
+    "navigationBarBackgroundColor": "#196d11",
     "navigationBarTitleText": "爱食堂",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#fff",
     "selectedColor": "#fff",
-    "backgroundColor": "#C83C32",
+    "backgroundColor": "#196d11",
     "borderStyle": "white",
     "list": [
       {

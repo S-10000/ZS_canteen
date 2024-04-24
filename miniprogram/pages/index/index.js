@@ -10,12 +10,14 @@ Page({
     whichnav: 'navlist',
     usertype:''
   },
+
   getvalue(e) {
     this.setData({
       inputvalue: e.detail.value
     })
     console.log(this.data.inputvalue);
   },
+
   searchdish(){
     if (this.data.inputvalue != '') {
       const db = wx.cloud.database();
@@ -40,11 +42,13 @@ Page({
       })
     }
   },
+
   category(event){
     wx.navigateTo({
       url: '/pages/navlist/navlist?type=' + event.currentTarget.dataset.type,
     })
   },
+  
   onLoad() {
     try {
       var value = wx.getStorageSync('account')
@@ -63,6 +67,7 @@ Page({
               this.data.whichnav == 'navlist'
             }else{
               this.data.whichnav == 'navlistwork'
+              console.log(1111111)
             }
           },
           fail: err => {

@@ -22,7 +22,7 @@ exports.main = async (event) => {
       nickname: u.nickname,
       account: u.account,
       password: u.password,
-      identity:stu,
+      identity:"stu",
       
       message:[],  //创建列表，帖子，菜式，收藏
       fav:[],  
